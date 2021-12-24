@@ -1,2 +1,2 @@
-# Learning-R
-Currently learning R for Data Science
+# hello-r
+This is my first Repo for R programming
