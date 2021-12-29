@@ -11,3 +11,39 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+
+#Subsetting a vector
+
+x <- c("a", "b", "c", "c", "d", "a")
+
+x[1]
+
+x[2]
+
+x[1:4]
+
+x[x> "a"]
+
+u <- x > "a"
+u
+
+x[u]
+
+#Subsetting a Matrix
+
+x <- matrix(1:6, 2, 3)
+
+x
+
+x[1,2]
+
+
+x[2,1]
+
+#Indices can also be missed
+
+x[1, ]
+
+x[ ,2]
+
+x[1, ,drop=FALSE]
